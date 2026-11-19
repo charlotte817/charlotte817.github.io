@@ -1,5 +1,5 @@
 /* OHOO! PWA service worker — 讓主畫面開啟時即使沒網路也能用 */
-const CACHE = "ohoo-shell-v1";
+const CACHE = "ohoo-shell-v2";
 const SHELL = ["/", "/manifest.json"];
 
 self.addEventListener("install", (event) => {
